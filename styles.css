@@ -1,18 +1,44 @@
+h1, h2, ul {
+    font-family: sans-serif;
+}
+
 h1 {
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
     max-width: 500px;
-    font-size: 60px;
-
-}
-h1, h2 {
+    font-size: 40px;
     text-align: center;
-    font-family: sans-serif;
 
 }
+
 body {
-    background-color: #1b1b32;
-    color: #F5F6F7;
+    background-color: lightgrey
+    
 }
+p { 
+    margin:auto;
+    margin-top: 10px;}
+
+/* Begin Kleuren voor de links: */
+a:link {
+    color:black;}
+a:visited {
+    color: rgb(86, 56, 27)}
+/* Einde kleuren voor de links */
+li a {
+    display: block;
+    width: 60px;
+    background-color: #dddddd;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+  }
+
+  
+
+    
