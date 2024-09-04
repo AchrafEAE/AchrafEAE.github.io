@@ -21,24 +21,31 @@ p {
     margin:auto;
     margin-top: 10px;}
 
-/* Begin Kleuren voor de links: */
+/* Begin kleuren voor de links: */
 a:link {
     color:black;}
 a:visited {
     color: rgb(86, 56, 27)}
 /* Einde kleuren voor de links */
-li a {
-    display: block;
-    width: 60px;
-    background-color: #dddddd;
-  }
-  ul {
+ul {
     list-style-type: none;
-    margin: 0;
+    margin:0;
     padding: 0;
-    width: 60px;
-  }
-
-  
+    background-color: #f1f1f1;
+    margin-left: 0px;
+    max-width: 120px;
 
     
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: beige;
+  }
+  li a:hover {
+    background-color: #555;
+    color: rgb(255, 255, 255);
+  }
