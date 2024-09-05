@@ -24,16 +24,16 @@ p {
 /* Begin kleuren voor de links: */
 a:link {
     color:black;}
-a:visited {
-    color: rgb(86, 56, 27)}
 /* Einde kleuren voor de links */
 ul {
     list-style-type: none;
-    margin: -55px;
     padding: 0;
     background-color: #f1f1f1;
     margin-left: 0px;
     max-width: 105px;
+    margin-top: -55px
+  
+
     
 
     
@@ -45,7 +45,7 @@ ul {
     padding: 7px 16px;
     text-decoration: none;
     background-color: beige;
-    margin-left: -10px
+    margin-left: -10px;
   }
   li a:hover {
     background-color: #555;
