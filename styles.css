@@ -5,56 +5,74 @@
     h1 {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: auto;
     font-size: 40px;
     text-align: center}
 
     h2 {
         font-size: 30px
+        
     }
 
 /* Einde letters */
 body {
-    background-color: lightgrey
-    
+    background-color: lightgrey    
 }
+article {
+    background-color:   
+    margin: -10px
+}
+
+
 p { 
-    margin:auto;
-    margin-top: 10px;}
+    margin-top: -10px;}
 /* Links */
     .navigation-links {
         font-size: 25px;
         float: left}
     .hzlogo {
-        float: right;
-            
+        float: right;            
     }
     img {
         height: 25px
     }
 
-
     /* Begin kleuren voor de links: */
-    a:link {
-    color:black;
-    text-decoration: none}
-    a:hover {
-    color:black}
-    a:visited {
-    color:black}
+        a:link {
+        color:black;
+        text-decoration: none}
+        a:hover {
+        color:black}
+        a:visited {
+        color:black}
+        #startpagina {
+            background-color:black;
+            color: white;
+        }
+        #profiel {
+            background-color:black;
+            color: white;
+        }
+        #dashboard {
+            background-color:black;
+            color: white;
+        }
+        #faq {
+            background-color:black;
+            color: white;
+        }
+        
     /* Einde kleuren voor de links */
+
 /* Einde Links */
-ul {
+.navigation-bar {
     list-style-type: none;
     margin: -10px;
     padding: 0;
     overflow: hidden;
     background-color: #C4A484;
   }
-  
-  li {
-    list-style: none}
   
   li a {
     display: block;
@@ -65,11 +83,8 @@ ul {
   }
   li a:hover {
     background-color: #111;
-  }
-  a:hover {
-    color:white
-  }
-  
+    color:white;}
+
  
 
 
