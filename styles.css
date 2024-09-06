@@ -8,7 +8,7 @@ h1 {
     margin-top: auto;
     margin-bottom: auto;
     max-width: 500px;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
 
 }
@@ -29,9 +29,8 @@ ul {
     list-style-type: none;
     padding: 0;
     background-color: #f1f1f1;
-    margin-left: 0px;
-    max-width: 105px;
-    margin-top: -55px
+    max-width: 120px;
+    margin: -55px 0px 0px 10px;
   
 
     
@@ -45,9 +44,13 @@ ul {
     padding: 7px 16px;
     text-decoration: none;
     background-color: beige;
-    margin-left: -10px;
+    margin-left: 0px;
   }
   li a:hover {
     background-color: #555;
     color: rgb(255, 255, 255);
+  }
+  a {
+    
+    
   }
