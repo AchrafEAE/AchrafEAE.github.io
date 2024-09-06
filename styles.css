@@ -1,18 +1,20 @@
-h1, h2, ul {
-    font-family: sans-serif;
-}
+/* Letters */
+    h1, h2, ul, p {
+    font-family: sans-serif;}
 
-h1 {
+    h1 {
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
+    margin-top: 10px;
     margin-bottom: auto;
-    max-width: 500px;
-    font-size: 35px;
-    text-align: center;
+    font-size: 40px;
+    text-align: center}
 
-}
+    h2 {
+        font-size: 30px
+    }
 
+/* Einde letters */
 body {
     background-color: lightgrey
     
@@ -22,7 +24,14 @@ p {
     margin-top: 10px;}
 /* Links */
     .navigation-links {
-        font-size: 20px
+        font-size: 25px;
+        float: left}
+    .hzlogo {
+        float: right;
+            
+    }
+    img {
+        height: 25px
     }
 
 
@@ -36,5 +45,31 @@ p {
     color:black}
     /* Einde kleuren voor de links */
 /* Einde Links */
+ul {
+    list-style-type: none;
+    margin: -10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C4A484;
+  }
+  
+  li {
+    list-style: none}
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;    
+  }
+  li a:hover {
+    background-color: #111;
+  }
+  a:hover {
+    color:white
+  }
+  
+ 
 
 
