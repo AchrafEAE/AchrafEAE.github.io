@@ -17,7 +17,7 @@
 
 /* Einde letters */
 body {
-    background-color: lightgrey    
+    background-color: #f0f0f0   
 }
 article {
     background-color:   
@@ -27,12 +27,29 @@ article {
 
 p { 
     margin-top: -10px;}
+
+/* Navigation bar*/
+nav {
+    box-sizing: border-box;
+    width: 100%
+    }
+
+.navigation-bar {
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+
+  }
 /* Links */
     .navigation-links {
         font-size: 25px;
         float: left}
     .hzlogo {
-        float: right;            
+        display: flex;
+        justify-content: right;                    
     }
     img {
         height: 25px
@@ -45,44 +62,38 @@ p {
         text-decoration: none;    
       }
       li a:hover {
-        background-color: #111;
-        color:white;}
+        background-color: #555;
+        color:white;}   
 
 /* Begin kleuren voor de links: */
      a:link {
-     color:black;
+     color: white;
      text-decoration: none}
      a:hover {
-     color:black}
+     color: white}
      a:visited {
-     color:black}
+     color:white}
      #startpagina {
-        background-color:black;
+        background-color: #555;
         color: white;
         }
     #profiel {
-        background-color:black;
+        background-color: #555;
         color: white;
         }
     #dashboard {
-        background-color:black;
+        background-color: #555;
         color: white;
         }
     #faq {
-        background-color:black;
+        background-color: #555;
         color: white;
-        }
+    }
         
 /* Einde kleuren voor de links */
 
 /* Einde Links */
-.navigation-bar {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0;
-    overflow: hidden;
-    background-color: #C4A484;
-  }
+
   
 
 
