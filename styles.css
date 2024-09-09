@@ -103,8 +103,24 @@ nav {
 
 /* Einde Links */
 
-  
+table, td, th {
+    border : 1px solid blue;
+    border-collapse: collapse;
+    
 
+}
+tr {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
 
  
 
