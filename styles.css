@@ -17,12 +17,10 @@
 
 /* Einde letters */
 body {
-    background-color: #f0f0f0   
-}
+    background-color: #f0f0f0}
 article {
     background-color:   
-    margin: -10px
-}
+    margin: -10px}
 
 
 p { 
@@ -31,64 +29,69 @@ p {
 /* Navigation bar*/
 nav {
     box-sizing: border-box;
-    width: 100%
-    }
+    width: 100%;
+    background-color: #333}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Centers items vertically */
+}
 
 .navigation-bar {
-    list-style-type: none;
-    padding: 0px;
-    overflow: hidden;
-    background-color: #333;
+    list-style-type: none;           
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 0;
+    margin: 0;
 
   }
 /* Links */
     .navigation-links {
         font-size: 25px;
-        float: left}
-    .hzlogo {
-        display: flex;
-        justify-content: right;                    
-    }
-    img {
-        height: 25px
-    }
-    li a {
+        margin: 0px 10px;
         display: block;
         color: white;
         text-align: center;
         padding: 14px 16px;
-        text-decoration: none;    
-      }
-      li a:hover {
+        text-decoration: none; 
+        }
+    .hzlogo {
+        margin-left: auto}
+
+    img {
+        height: 25px}
+
+    li a:hover {
         background-color: #555;
         color:white;}   
 
 /* Begin kleuren voor de links: */
      a:link {
-     color: white;
-     text-decoration: none}
-     a:hover {
-     color: white}
-     a:visited {
-     color:white}
+        color: white;
+        text-decoration: none}
+     .navigation bar a:hover {
+        color: white;}
+     
+     
+     /* Laat zien op welke pagina je zit */
      #startpagina {
         background-color: #555;
-        color: white;
-        }
+        color: white;}
     #profiel {
         background-color: #555;
-        color: white;
-        }
+        color: white}
     #dashboard {
         background-color: #555;
-        color: white;
-        }
+        color: white}
     #faq {
         background-color: #555;
-        color: white;
-    }
+        color: white}
+    #blog {
+        background-color: #555;
+        color: white}
         
 /* Einde kleuren voor de links */
 
