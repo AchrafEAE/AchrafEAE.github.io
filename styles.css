@@ -1,58 +1,55 @@
-/* Letters */
+/* Letters Styling */
     h1, h2, ul, p {
-    font-family: sans-serif;}
+        font-family: sans-serif;}
 
     h1 {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: auto;
-    font-size: 40px;
-    text-align: center}
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: auto;
+        font-size: 40px;
+        text-align: center}
 
     h2 {
         font-size: 30px}
     
     p {
         font-size: 20px;
-        margin-top -10px;
-        
-    }
+        margin-top -10px;}
 
-/* Einde letters */
-body {
-    background-color: #f0f0f0;
-    margin: 0}
 
-article {
-    margin: 10px;}
+/* Einde letters stylign */
+
+/* Basis styling */
+    body {
+        background-color: #f0f0f0;
+        margin: 0}
+
+/* Einde basis styling */
     
 /* Navigation bar*/
-nav {
-    box-sizing: border-box;
-    width: 100%;
-    background-color: #333;
-    padding: 0px 10px;
-    margin: 0;
-}
+    nav {
+        box-sizing: border-box;
+        width: 100%;
+        background-color: #333;
+        padding: 0px 10px;
+        margin: 0;}
+
+    .nav-content {
+        display: flex;
+        justify-content: space-between; /* Space between items */
+        align-items: center;} /* Centers items vertically */
 
 
-.nav-content {
-    display: flex;
-    justify-content: space-between; /* Space between items */
-    align-items: center; /* Centers items vertically */
-}
+    .navigation-bar {
+        list-style-type: none;           
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        padding: 0;
+        margin: 0;}
 
-.navigation-bar {
-    list-style-type: none;           
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    padding: 0;
-    margin: 0;
-
-  }
 /* Links */
     .navigation-links {
         font-size: 25px;
@@ -61,8 +58,8 @@ nav {
         color: white;
         text-align: center;
         padding: 14px 16px;
-        text-decoration: none; 
-        }
+        text-decoration: none;}
+
     .hzlogo {
         margin-left: auto}
 
@@ -82,7 +79,7 @@ nav {
      
      
      /* Laat zien op welke pagina je zit */
-     #startpagina {
+    #startpagina {
         background-color: #555;
         color: white;}
     #profiel {
@@ -104,10 +101,8 @@ nav {
 
 table, td, th {
     border : 1px solid blue;
-    border-collapse: collapse;
-    
+    border-collapse: collapse;}
 
-}
 tr {
     text-align: center;}
 
@@ -124,8 +119,8 @@ tr {
 
     .footer-container {
         display: flex;
-        justify-content: space-between; /* Space between items */
-        align-items: center; /* Centers items vertically */
+        justify-content: space-between; /* Ruimte tussen de links */
+        align-items: center; /*Verticaal in het midden */ 
         width: 100%}
 
     .footer-ul {
@@ -145,10 +140,13 @@ tr {
        
 
     .footer-links {
-        color:white}
+        color:white
+        }
     
     .footer-links:hover {
-        color: lightgrey}
+        color: grey;
+        background-color: #333}   
+/* Einde Footer Styling */
 
  
 
