@@ -11,7 +11,11 @@
     text-align: center}
 
     h2 {
-        font-size: 30px
+        font-size: 30px}
+    
+    p {
+        font-size: 20px;
+        margin-top -10px;
         
     }
 
@@ -21,13 +25,8 @@ body {
     margin: 0}
 
 article {
-    background-color:   
-    margin: -10px}
-
-
-p { 
-    margin-top: -10px;}
-
+    margin: 10px;}
+    
 /* Navigation bar*/
 nav {
     box-sizing: border-box;
@@ -110,17 +109,46 @@ table, td, th {
 
 }
 tr {
-    text-align: center;
-}
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
+    text-align: center;}
+
+/* Footer styling */
+    footer {
+        box-sizing: border-box;
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+        color: white;
+        position: fixed;
+        width: 100%;
+        bottom: 0px;}
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between; /* Space between items */
+        align-items: center; /* Centers items vertically */
+        width: 100%}
+
+    .footer-ul {
+        list-style-type: none;           
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        padding: 0px;
+        margin: -4px;}    
+    
+    .footer-text {
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        margin-right: 50px}
+       
+
+    .footer-links {
+        color:white}
+    
+    .footer-links:hover {
+        color: lightgrey}
 
  
 
