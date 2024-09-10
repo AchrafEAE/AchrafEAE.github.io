@@ -1,21 +1,21 @@
 /* Letters Styling */
-    h1, h2, ul, p {
+    h1, h2, ul, p, .footer-text {
         font-family: sans-serif;}
 
     h1 {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
-        margin-bottom: auto;
+        margin: 20px auto auto auto;
         font-size: 40px;
         text-align: center}
 
     h2 {
-        font-size: 30px}
+        font-size: 30px;
+        margin: 0px 0px 0 10px}
     
     p {
         font-size: 20px;
-        margin-top -10px;}
+        margin: 10px 0 0 10px;
+    }
+    
 
 
 /* Einde letters stylign */
@@ -140,13 +140,13 @@ tr {
        
 
     .footer-links {
-        color:white
-        }
+        color:white}
     
     .footer-links:hover {
         color: grey;
         background-color: #333}   
 /* Einde Footer Styling */
+
 
  
 
