@@ -1,5 +1,5 @@
 /* Letters Styling */
-    h1, h2, ul, p, .footer-text {
+    h1, h2, ul, p, .footer-text, details {
         font-family: sans-serif;}
 
     h1 {
@@ -28,6 +28,20 @@
     body {
         background-color: #f0f0f0;
         margin: 0}
+    table, td, th {
+        border : 1px solid blue;
+        border-collapse: collapse;}
+        
+    tr {
+        text-align: center;}
+    .faq-container {
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        width: 550px;
+        margin: 80px auto 0px auto;]
+
+    }
 
 /* Einde basis styling */
     
@@ -103,12 +117,7 @@
 
 /* Einde Links */
 
-table, td, th {
-    border : 1px solid blue;
-    border-collapse: collapse;}
 
-tr {
-    text-align: center;}
 
 /* Footer styling */
     footer {
