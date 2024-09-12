@@ -1,5 +1,5 @@
 /* Letters Styling */
-    h1, h2, ul, p, .footer-text, details {
+    * {
         font-family: sans-serif;}
 
     h1 {
@@ -48,11 +48,69 @@
 
     .faq-questions {
         border: solid 1px #333;
-        margin: 30px 0px 0px 0px;
-      
+        margin: 30px 0px 0px 0px;}
         
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;}
+
+    .grid-item {
+    height: 150px;
+    border: solid 4px #333;
+    border-radius: 10px;
+    border-collapse: collapse;
+    margin: 10px 5px 0px 5px;
+    padding: 10px;}
+
+    .text {
+        margin: 3px 0 0 0 
     }
+
+    .readmore {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #333;
+        text-decoration: none;
+        border-radius: 10px;
+        transition: background-color 0.3s;
+        margin: 10px 0 0 0;
+        text-align: center}
+      
+    .readmore:hover {
+        background-color: #555;}
+
+    .readmore:visited {
+        color: white}
+
+    .blog-text {
+        margin: 40px 50px 10px 30px;
+        font-size: 25px;
+        max-width: 1500px;
+        border: solid 3px #333;
+        padding: 10px 20px}
     
+    .blog-foto-container {
+        ddisplay: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        max-width: 2000px;
+        margin: 0 auto 0px 300px;
+        padding: 20px 10px;}
+
+    
+
+    .blog-foto {
+        width: 100%;
+        max-width: 350px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: 10px 0px 0px 50px
+    }
+
+
 
 /* Einde basis styling */
     
@@ -88,7 +146,8 @@
         color: white;
         text-align: center;
         padding: 14px 16px;
-        text-decoration: none;}
+        text-decoration: none;
+        transition: background-color 0.4s;}
 
     .hzlogo {
         margin-left: auto}
@@ -100,16 +159,18 @@
         background-color: #555;
         color: white;} 
     
-    .faq-links {
-        color: blue
-    }
-
+  
 /* Begin kleuren voor de links: */
      a:link {
         color: white;
         text-decoration: none}
+        
      .navigation bar a:hover {
         color: white;}
+
+    .faq-links {
+        color: blue}
+    
      
      
      /* Laat zien op welke pagina je zit */
@@ -169,14 +230,19 @@
        
 
     .footer-links {
-        color:white}
+        color: white;
+        transition: color 0.4s}      
     
     .footer-links:hover {
         color: grey;
-        background-color: #333}   
+        background-color: #333  }   
 /* Einde Footer Styling */
+
+* {box-sizing: border-box;}
 
 
  
+
+
 
 
