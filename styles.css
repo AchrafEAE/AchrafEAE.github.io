@@ -39,9 +39,17 @@
         justify-content:center;
         flex-direction: column;
         width: 550px;
-        margin: 80px auto 0px auto;]
+        margin: 40px auto 0px auto;
+        font-size: 20px;
+        max-height: 500px}
 
+    .faq-questions {
+        border: solid 1px #333;
+        margin: 30px 0px 0px 0px;
+      
+        
     }
+    
 
 /* Einde basis styling */
     
