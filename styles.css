@@ -63,7 +63,8 @@
     padding: 10px;}
 
     .text {
-        margin: 3px 0 0 0 
+        margin: 3px 0 0 0;
+        text-align: center
     }
 
     .readmore {
@@ -72,8 +73,8 @@
         background-color: #333;
         text-decoration: none;
         border-radius: 10px;
-        transition: background-color 0.3s;
-        margin: 10px 0 0 0;
+        transition: background-color 0.4s;
+        margin: 10px 0 0px 300px;
         text-align: center}
       
     .readmore:hover {
