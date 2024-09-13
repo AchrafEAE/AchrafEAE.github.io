@@ -7,18 +7,29 @@
         font-size: 50px;
         text-align: center}
 
-        /* Overbodig op het moment 
+       
     h2 {
-        font-size: 30px;
-        margin: 0px 0px 0 10px}
-        */
+        font-size: 40px;
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+        }
+        
     
     h3 {
-        font-size: 20px;
-        margin: 100px 0 0 100px;}
+        font-size: 30px;
+        margin: 40px 0 0 280px;}
     
-        .hobbies {
-            font-size: 15px;}
+    .hobbies {
+        font-size: 15px;}
+    
+    .profiel-text-container {
+        max-width: 700px;
+        border: solid 3px #333;
+        margin: 10px}
+
+    .profiel-text {
+        margin: 10px
+    }
     
 
 
@@ -30,6 +41,15 @@
         margin: 0;
         min-height: 300px;
         margin-bottom: 100px}
+/*
+    .midden-stuk {
+        background: #333;
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+        margin-top: 25px
+    }
+*/
     table, td, th {
         border : 1px solid blue;
         border-collapse: collapse;}
