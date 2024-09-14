@@ -11,8 +11,7 @@
     h2 {
         font-size: 40px;
         margin: 0px 0px 0px 0px;
-        text-align: center;
-        }
+        text-align: center;}
         
     
     h3 {
@@ -29,9 +28,7 @@
 
     .profiel-text {
         margin: 10px
-    }
-    
-
+    }   
 
 /* Einde letters stylign */
 
@@ -56,6 +53,7 @@
         
     tr {
         text-align: center;}
+    
     .faq-container {
         display: flex;
         justify-content:center;
@@ -75,12 +73,12 @@
         grid-template-columns: auto auto;}
 
     .grid-item {
-    height: 150px;
-    border: solid 4px #333;
-    border-radius: 10px;
-    border-collapse: collapse;
-    margin: 10px 5px 0px 5px;
-    padding: 10px;}
+        height: 150px;
+        border: solid 4px #333;
+        border-radius: 10px;
+        border-collapse: collapse;
+        margin: 10px 5px 0px 5px;
+        padding: 10px;}
 
     .text {
         margin: 3px 0 0 0;
@@ -111,13 +109,13 @@
         padding: 10px 20px}
     
     .blog-foto-container {
-        ddisplay: flex;
+        display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         gap: 16px;
         max-width: 2000px;
-        margin: 0 auto 0px 300px;
+        margin: 0 auto 0px 0px;
         padding: 20px 10px;}
 
     
@@ -128,8 +126,12 @@
         height: 300px;
         object-fit: cover;
         border-radius: 10px;
-        margin: 10px 0px 0px 50px
-    }
+        margin: 10px 0px 0px 50px}
+
+    .schema {
+        width: 98%;
+        margin: 25px 0px 0px 10px;
+        border: solid 3px #333}
 
 
 
@@ -145,9 +147,8 @@
 
     .nav-content {
         display: flex;
-        justify-content: space-between; /* Space between items */
-        align-items: center;
-        } /* Centers items vertically */
+        justify-content: space-between; 
+        align-items: center;} 
 
 
     .navigation-bar {
@@ -184,7 +185,7 @@
 /* Begin kleuren voor de links: */
      a:link {
         color: white;
-        text-decoration: none}
+        text-decoration: }
         
      .navigation bar a:hover {
         color: white;}
