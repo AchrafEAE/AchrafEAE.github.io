@@ -1,4 +1,4 @@
-/* Letters Styling */
+                                                                /* Letters Styling */
     * {
         font-family: sans-serif;}
 
@@ -29,24 +29,15 @@
     .profiel-text {
         margin: 10px
     }   
+                                                                /* Einde letters stylign */
 
-/* Einde letters stylign */
-
-/* Basis styling */
+                                                                /* Basis styling */
     body {
         background-color: #f0f0f0;
         margin: 0;
         min-height: 300px;
         margin-bottom: 100px}
-/*
-    .midden-stuk {
-        background: #333;
-        color: white;
-        text-align: center;
-        padding: 50px 20px;
-        margin-top: 25px
-    }
-*/
+
     table, td, th {
         border : 1px solid blue;
         border-collapse: collapse;}
@@ -102,7 +93,9 @@
         color: white}
 
     .blog-text {
-        margin: 40px 50px 10px 30px;
+        display: flex;
+        justify-content: center;
+        margin: 10px, auto, auto, auto;
         font-size: 25px;
         max-width: 1500px;
         border: solid 3px #333;
@@ -135,9 +128,9 @@
 
 
 
-/* Einde basis styling */
+                                                                /* Einde basis styling */
     
-/* Navigation bar*/
+                                                                /* Navigation bar*/
     nav {
         box-sizing: border-box;
         width: 100%;
@@ -160,7 +153,7 @@
         padding: 0;
         margin: 0;}
 
-/* Links */
+                                                                /* Links */
     .navigation-links {
         font-size: 25px;
         margin: 0px 10px;
@@ -182,7 +175,7 @@
         color: white;} 
     
   
-/* Begin kleuren voor de links: */
+                                                                /* Begin kleuren voor de links: */
      a:link {
         color: white;
         text-decoration: }
@@ -212,13 +205,13 @@
             background-color: #555;
             color: white}
         
-/* Einde kleuren voor de links */
+                                                                /* Einde kleuren voor de links */
 
-/* Einde Links */
+                                                                /* Einde Links */
 
 
 
-/* Footer styling */
+                                                                /* Footer styling */
     footer {
         box-sizing: border-box;
         text-align: center;
@@ -253,12 +246,13 @@
 
     .footer-links {
         color: white;
-        transition: color 0.4s}      
+        transition: color 0.4s;
+        text-decoration: none;}      
     
     .footer-links:hover {
         color: grey;
         background-color: #333  }   
-/* Einde Footer Styling */
+                                                                /* Einde Footer Styling */
 
 * {box-sizing: border-box;}
 
