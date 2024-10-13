@@ -69,7 +69,8 @@
         border-radius: 10px;
         border-collapse: collapse;
         margin: 10px 5px 0px 5px;
-        padding: 10px;}
+        padding: 10px;
+        box-sizing: border-box;}
 
     .text {
         margin: 3px 0 0 0;
@@ -95,7 +96,7 @@
     .blog-text {
         display: flex;
         justify-content: center;
-        margin: 10px, auto, auto, auto;
+        margin: 100px, auto, auto, auto;
         font-size: 25px;
         max-width: 1500px;
         border: solid 3px #333;
@@ -188,7 +189,7 @@
     
      
      
-     /* Laat zien op welke pagina je zit */
+                                                              /* Laat zien op welke pagina je zit */
         #startpagina {
             background-color: #555;
             color: white;}
@@ -254,7 +255,7 @@
         background-color: #333  }   
                                                                 /* Einde Footer Styling */
 
-* {box-sizing: border-box;}
+
 
 
  
