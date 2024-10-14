@@ -72,19 +72,22 @@
         padding: 10px;
         box-sizing: border-box;}
 
-    .text {
+    .blog-text-short {
         margin: 3px 0 0 0;
         text-align: center
     }
 
+    .readmore-container {
+        text-align: center}
+
     .readmore {
-        display: inline-block;
+        display: inline-block ;
         padding: 10px 20px;
         background-color: #333;
         text-decoration: none;
         border-radius: 10px;
         transition: background-color 0.4s;
-        margin: 10px 0 0px 300px;
+        margin: 5px; 
         text-align: center}
       
     .readmore:hover {
@@ -96,7 +99,6 @@
     .blog-text {
         display: flex;
         justify-content: center;
-        margin: 100px, auto, auto, auto;
         font-size: 25px;
         max-width: 1500px;
         border: solid 3px #333;
@@ -163,7 +165,7 @@
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        transition: background-color 0.4s;}
+        transition: background-color 0.6s;}
 
     .hzlogo {
         margin-left: auto}
