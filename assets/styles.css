@@ -80,6 +80,13 @@
     #totaal-box {
       border-top: 3px solid black;
     }
+
+    input[type="text"] {
+      background-color: transparent;
+      border: 2px solid; /* Adjust the width as needed */
+      
+    }
+    
                                                                 /* EINDE TABLE */
     .faq-container {
         display: flex;
