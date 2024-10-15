@@ -158,13 +158,30 @@
 </footer>
 
 <script>
+  function saveInputValues() {
+    const inputs = document.querySelectorAll('input[type="text"]');
+    inputs.forEach(input => {
+      localStorage.setItem(input.id, input.value);
+    });
+  }
+
+  function loadInputValues() {
+    const inputs = document.querySelectorAll('input[type="text"]');
+    inputs.forEach(input => {
+      const savedValue = localStorage.getItem(input.id);
+      if (savedValue !== null) {
+        input.value = savedValue;
+      }
+    });
+  }
+
   function calculateTotal() {
     const inputs = document.querySelectorAll('input[type="text"]');
     let total = 0;
 
     inputs.forEach(input => {
       const value = input.value.trim();
-      if (value && value !== 'n.t.b.') {
+      if (value) {
         const ec = parseFloat(value.replace(' EC', ''));
         if (!isNaN(ec)) {
           total += ec;
@@ -177,10 +194,14 @@
   }
 
   document.querySelectorAll('input[type="text"]').forEach(input => {
-    input.addEventListener('input', calculateTotal);
+    input.addEventListener('input', () => {
+      calculateTotal();
+      saveInputValues();
+    });
   });
 
-  // Initial calculation
+  // Load saved input values and calculate total on page load
+  loadInputValues();
   calculateTotal();
 </script>
 
