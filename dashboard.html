@@ -114,7 +114,7 @@
         <td>2.5 EC</td>
         <td><input type="text" id="IP"></td>
       </tr>
-      <tr class="niet-gestart">
+      <tr class="bezig">
         <td>Personal Professional Development: Exploration</td>
         <td>Portfolio</td>
         <td>12.5 EC</td>
@@ -128,16 +128,21 @@
         <td id="total"></td>
       </tr>
     </table>
-    <!-- Kleur INDEX -->
-    <div class="color-index">
-      <ul>
-        <li><span class="color-box" style="background-color: yellow;"></span> In Progress</li>
-        <li><span class="color-box" style="background-color: lightgray;"></span> Not Started</li>
-        <li><span class="color-box" style="background-color: lightgreen;"></span> Completed</li>
-      </ul>
+    <!-- Progress bar -->
+    <div class="progress-bar-container">
+      <div id="progressBar" class="progress-bar"></div>
     </div>
   </main>
 </body>
+<!-- Kleur INDEX -->
+<div class="color-container">
+  <ul>
+    <li><span class="color-box" style="background-color: yellow;"></span> In Progress</li>
+    <li><span class="color-box" style="background-color: lightgray;"></span> Not Started</li>
+    <li><span class="color-box" style="background-color: lightgreen;"></span> Completed</li>
+  </ul>
+</div>
+
 
 <footer>
   <div class="footer-container">
@@ -158,14 +163,14 @@
 </footer>
 
 <script>
-  function saveInputValues() {
+  function saveInputs() {
     const inputs = document.querySelectorAll('input[type="text"]');
     inputs.forEach(input => {
       localStorage.setItem(input.id, input.value);
     });
   }
 
-  function loadInputValues() {
+  function loadInputs() {
     const inputs = document.querySelectorAll('input[type="text"]');
     inputs.forEach(input => {
       const savedValue = localStorage.getItem(input.id);
@@ -174,6 +179,9 @@
       }
     });
   }
+
+  calculateTotal();
+  
 
   function calculateTotal() {
     const inputs = document.querySelectorAll('input[type="text"]');
@@ -190,18 +198,23 @@
     });
 
     const totalElement = document.getElementById('total');
-    totalElement.textContent = total > 0 ? `${total} EC` : '';
+    totalElement.textContent = `${total} EC`;
+
+    const progressBar = document.getElementById('progressBar');
+    const percentage = (total / 60) * 100; // Assuming 60 EC is the maximum
+    progressBar.style.width = `${percentage}%`;
+    progressBar.style.backgroundColor = total >= 45 ? 'green' : 'red';
   }
 
   document.querySelectorAll('input[type="text"]').forEach(input => {
     input.addEventListener('input', () => {
       calculateTotal();
-      saveInputValues();
+      saveInputs();
     });
   });
 
   // Load saved input values and calculate total on page load
-  loadInputValues();
+  loadInputs();
   calculateTotal();
 </script>
 
