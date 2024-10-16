@@ -127,21 +127,17 @@
 
     .grid-container {
         display: grid;
-        grid-template-columns: auto auto;}
+        grid-template-columns: auto auto;
+        margin: 12px}
 
     .grid-item {
         height: 150px;
         border: solid 4px #333;
         border-radius: 10px;
         border-collapse: collapse;
-        margin: 10px 5px 0px 5px;
+        margin: 5px;
         padding: 10px;
         box-sizing: border-box;}
-
-    .blog-text-short {
-        margin: 3px 0 0 0;
-        text-align: center
-    }
 
     .readmore-container {
         text-align: center}
@@ -166,9 +162,16 @@
         display: flex;
         justify-content: center;
         font-size: 25px;
-        max-width: 1500px;
         border: solid 3px #333;
-        padding: 10px 20px}
+        padding: 10px 20px;
+        margin: 30px 10px;
+      }
+
+    .blog-text-short {
+          margin: auto;
+          text-align: center
+    }
+  
     
     .blog-foto-container {
         display: flex;
@@ -210,7 +213,8 @@
     .nav-content {
         display: flex;
         justify-content: space-between; 
-        align-items: center;} 
+        align-items: center;
+        } 
 
 
     .navigation-bar {
@@ -218,9 +222,17 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
         flex-grow: 1;
         padding: 0;
         margin: 0;}
+    
+    .hzlogo {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-grow: 0;
+      }
 
                                                                 /* Links */
     .navigation-links {
@@ -232,7 +244,17 @@
         padding: 14px 16px;
         text-decoration: none;
         transition: background-color 0.6s;}
-
+    
+    .terug-naar-blog {
+        font-size: 25px;
+        margin: 0px 10px;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: background-color 0.6s;
+    }
 
     img {
         height: 25px}
