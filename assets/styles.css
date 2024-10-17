@@ -91,18 +91,30 @@
       font-size: 16px}
       
     .progress-bar-container {
+      position: relative;
       width: 50%;
-      margin: auto;
-      background-color: darkgrey;
-      border-radius: 100px;
+      background-color: #e0e0e0;
+      border-radius: 5px;
       overflow: hidden;
-      margin-top: 10px;}
+      margin: 20px auto;
+    }
 
     .progress-bar {
-      height: 15px;
+      height: 20px;
       width: 0;
       background-color: red;
-      transition: width 0.3s, background-color 0.5s;}
+      transition: width 0.3s, background-color 0.3s;
+    }
+
+    .progress-text {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      text-align: center;
+      line-height: 20px;
+      font-weight: bold;
+      color: #000;
+    }
                                                                 /* EINDE TABLE */
                                                                 /* FAQ */
     .faq-container {  
@@ -125,8 +137,8 @@
                                                                 /* BLOG */
     .grid-container {
         display: grid;
-        grid-template-columns: auto auto;
-        margin: 12px}
+        grid-template-columns: 50% 50%;
+        margin: 12px;}
 
     .grid-item {
         height: 150px;
@@ -351,12 +363,3 @@
         color: grey;
         background-color: #333}   
                                                                 /* Einde Footer Styling */
-
-
-
-
- 
-
-
-
-

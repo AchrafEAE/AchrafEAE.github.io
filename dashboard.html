@@ -130,6 +130,7 @@
     <!-- Progress bar -->
     <div class="progress-bar-container">
       <div id="progressBar" class="progress-bar"></div>
+      <div id="progressText" class="progress-text"></div>
     </div>
   </main>
 </body>
@@ -203,6 +204,7 @@
     const percentage = (total / 60) * 100;
     progressBar.style.width = `${percentage}%`;
     progressBar.style.backgroundColor = total >= 45 ? 'green' : 'red';
+    progressText.textContent = `${total} / 60 EC`;
   }
 
   document.querySelectorAll('input[type="text"]').forEach(input => {
