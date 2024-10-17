@@ -32,7 +32,7 @@
 
                                                                 /* Basis styling */
     body {
-        background-color: #f0f0f0;
+        background-color: #e0d7d7;
         margin: 0;
         min-height: 300px;
         margin-bottom: 100px}
@@ -227,6 +227,14 @@
       border: solid 3px #333;
       padding: 10px 20px;
       margin: 0px 0px;}
+
+    .AI-voorbeelden-ul {
+      display: flex;
+      justify-content: center;}
+
+    .AI-voorbeelden {
+      font-size: 25px;
+      margin-left: 50px;}
     
                                                                 /* Einde BLOG */
     
