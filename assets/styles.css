@@ -250,6 +250,11 @@
     .AI-voorbeelden {
       font-size: 25px;
       margin-left: 50px;}
+
+    .styled-hr {
+      border: none;
+      border-top: 1px solid #333;
+      margin: 40px 0;}
     
                                                                 /* Einde BLOG */
     
@@ -308,16 +313,16 @@
     .faq-links {
         color: blue}
 
-    .index-links [
-      color: blue
-    ]
+    .index-links {
+      color: blue;}
 
     .index-links:visited {
-      color: blue
-    }
+      color: blue}
     
-     
-     
+    .index-links:hover {
+      color: darkblue;
+      transition: color 0.4s
+    }
                                                               /* Laat zien op welke pagina je zit */
     #startpagina {
         background-color: #555;
