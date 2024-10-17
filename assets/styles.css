@@ -14,21 +14,31 @@
         margin: 0px 0px 0px 0px;
         text-align: center;}
                                                               /* StartPagina en Profiel */
-    #kopje-links {
-        font-size: 30px;
-        margin: 40px 0 0 280px;}
+    .kopje {
+        margin: 40px auto 10px auto;
+        text-align: center;
+        font-size: 30px;}
     
     .hobbies {
-        font-size: 15px;}
+        text-align: center;
+        list-style-position: inside;
+        font-size: 20px;
+        margin: 10px auto auto auto;}
     
     .profiel-text-container {
-        max-width: 700px;
-        border: solid 3px #333;
-        margin: 10px}
+        width: 90%;
+        display: grid;
+        column-template: column;
+        gap: 0;
+        margin: 15px auto;
+    }
 
     .profiel-text {
-        margin: 10px}   
-                                                                /* Einde letters stylign */
+        border: 3px solid #333;
+        font-size: 20px;
+        margin: 0;
+        padding: 10px;}
+                                                                           /* Einde letters stylign */
 
                                                                 /* Basis styling */
     body {
@@ -277,16 +287,6 @@
         text-decoration: none;
         transition: background-color 0.6s;}
     
-    .terug-naar-blog {
-        font-size: 25px;
-        margin: 0px 10px;
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        transition: background-color 0.6s;}
-
     img {
         height: 25px}
 
@@ -322,7 +322,9 @@
         #blog {
             background-color: #555;
             color: white}
-        
+        #blog-post {
+            background-color: #555;
+            color: white}
                                                                 /* Einde kleuren voor de links */
 
                                                                 /* Einde Links */
