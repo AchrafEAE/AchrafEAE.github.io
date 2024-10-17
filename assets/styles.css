@@ -169,7 +169,7 @@
 
     .blog-text {
         display: flex;
-        justify-content: center;
+        align-items: center;
         font-size: 25px;
         border: solid 3px #333;
         padding: 10px 20px;
