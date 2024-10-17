@@ -38,6 +38,11 @@
         font-size: 20px;
         margin: 0;
         padding: 10px;}
+
+    .index-text {
+      font-size: 20px;
+      margin: 10px 50px 0 50px;
+      text-align: center}
                                                                            /* Einde letters stylign */
 
                                                                 /* Basis styling */
@@ -296,35 +301,42 @@
                                                                 /* Begin kleuren voor de links: */
      a:link {
         color: white;
-        text-decoration:}
-        
+     }
      .navigation bar a:hover {
         color: white;}
 
     .faq-links {
         color: blue}
+
+    .index-links [
+      color: blue
+    ]
+
+    .index-links:visited {
+      color: blue
+    }
     
      
      
                                                               /* Laat zien op welke pagina je zit */
-        #startpagina {
-            background-color: #555;
-            color: white;}
-        #profiel {
-            background-color: #555;
-            color: white}
-        #dashboard {
-            background-color: #555;
-            color: white}
-        #faq {
-            background-color: #555;
-            color: white}
-        #blog {
-            background-color: #555;
-            color: white}
-        #blog-post {
-            background-color: #555;
-            color: white}
+    #startpagina {
+        background-color: #555;
+        color: white;}
+    #profiel {
+        background-color: #555;
+        color: white}
+    #dashboard {
+        background-color: #555;
+        color: white}
+    #faq {
+        background-color: #555;
+        color: white}
+    #blog {
+        background-color: #555;
+        color: white}
+    #blog-post {
+        background-color: #555;
+        color: white}
                                                                 /* Einde kleuren voor de links */
 
                                                                 /* Einde Links */
