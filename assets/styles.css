@@ -109,21 +109,22 @@
       
     .progress-bar-container {
       position: relative;
-      width: 50%;
-      background-color: #e0e0e0;
+      width: 70%;
+      background-color: white;
       border-radius: 5px;
       overflow: hidden;
       margin: 20px auto;
     }
 
     .progress-bar {
-      height: 20px;
+      height: 30px;
       width: 0;
       background-color: red;
       transition: width 0.3s, background-color 0.3s;
     }
 
     .progress-text {
+      margin-top: 5px;
       position: absolute;
       top: 0;
       width: 100%;
@@ -165,6 +166,9 @@
         padding: 10px;
         box-sizing: border-box;}
 
+    .grid-item.full-width {
+      grid-column: 1 / -1;}
+
     .readmore-container {
         text-align: center}
 
@@ -193,7 +197,7 @@
         margin: 30px 10px;}
 
     .blog-text-short {
-          font-size: 25px;
+          font-size: 30px;
           margin: auto;
           text-align: center}
     

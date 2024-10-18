@@ -12,56 +12,60 @@
 
 <body>
   <!-- De Navigation bar -->
-  <nav>
-    <div class="nav-content">
-      <ul class="navigation-bar">
-        <li><a class="navigation-links" href="index.html"><strong>Startpagina</strong></a></li>
-        <li><a class="navigation-links" href="profile.html"><strong>Profiel</strong></a></li>
-        <li><a class="navigation-links" href="dashboard.html"><strong>Dashboard</strong></a></li>
-        <li><a class="navigation-links" id="blog" href="blog.html"><strong>Blog</strong></a></li>
-        <li><a class="navigation-links" href="faq.html"><strong>FAQ</strong></a></li>
-      </ul>
-      <div class="hzlogo">
-        <a class="hzlogo" href="https://hz.nl/" target="_blank"><img src="Fotos en pdf/hz-logo.png" alt="hz-logo"></a>
+  <header>
+    <nav>
+      <div class="nav-content">
+        <ul class="navigation-bar">
+          <li><a class="navigation-links" href="index.html"><strong>Startpagina</strong></a></li>
+          <li><a class="navigation-links" href="profile.html"><strong>Profiel</strong></a></li>
+          <li><a class="navigation-links" href="dashboard.html"><strong>Dashboard</strong></a></li>
+          <li><a class="navigation-links" id="blog" href="blog.html"><strong>Blog</strong></a></li>
+          <li><a class="navigation-links" href="faq.html"><strong>FAQ</strong></a></li>
+        </ul>
+        <!-- HZ Logo met link naar de HZ-website -->
+        <div class="hzlogo">
+          <a class="hzlogo" href="https://hz.nl/" target="_blank"><img src="Fotos en pdf/hz-logo.png" alt="hz-logo"></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Main page content -->
+  <main>
+    <h1>Welkom op mijn blog</h1>
+    <!-- Flex grid om de blogs te sorteren -->
+    <div class="grid-container">
+      <div class="grid-item">
+        <p class="blog-text-short">Waarom ICT?</p>
+        <div class="readmore-container">
+          <a class="readmore" href="blog-posts/opgroeiing.html">Read more</a>
+        </div>
+      </div>
+      <div class="grid-item">
+        <p class="blog-text-short">Mijn persoonlijke SWOT-analyse</p>
+        <div class="readmore-container">
+          <a class="readmore" href="blog-posts/swot-analysis.html">Read more</a>
+        </div>
+      </div>
+      <div class="grid-item">
+        <p class="blog-text-short">Mijn Programeerervaring</p>
+        <div class="readmore-container">
+          <a class="readmore" href="blog-posts/programeer-ervaring.html">Read more</a>
+        </div>
+      </div>
+      <div class="grid-item">
+        <p class="blog-text-short">The first feedback from the SKC assignment.</p>
+        <div class="readmore-container">
+          <a class="readmore" href="blog-posts/skc-feedback.html">Read more</a>
+        </div>
+      </div>
+      <div class="grid-item full-width">
+        <p class="blog-text-short">De nieuwe rol van AI in de ICT</p>
+        <div class="readmore-container">
+          <a class="readmore" href="blog-posts/AI-ICT.html">Read more</a>
+        </div>
       </div>
     </div>
-  </nav>
-  <h1>Welkom op mijn blog</h1>
-  <!-- Flex grid om de blogs te sorteren -->
-  <div class="grid-container">
-    <div class="grid-item">
-      <p class="blog-text-short">Waarom ICT? Vanaf jongs af aan heb ik altijd een sterke interesse gehad in computers en
-        technologie.</p>
-      <div class="readmore-container">
-        <a class="readmore" href="Blog posts/opgroeiing.html">Read more</a>
-      </div>
-    </div>
-    <div class="grid-item">
-      <p class="blog-text-short">Mijn persoonlijke SWOT-analyse</p>
-      <div class="readmore-container">
-        <a class="readmore" href="Blog posts/swot-analysis.html">Read more</a>
-      </div>
-    </div>
-    <div class="grid-item">
-      <p class="blog-text-short">Mijn Programeerervaring</p>
-      <div class="readmore-container">
-        <a class="readmore" href="Blog posts/programeer-ervaring.html">Read more</a>
-      </div>
-    </div>
-    <div class="grid-item">
-      <p class="blog-text-short">The first feedback from the SKC assignment.</p>
-      <div class="readmore-container">
-        <a class="readmore" href="Blog posts/skc-feedback.html">Read more</a>
-      </div>
-    </div>
-    <div class="grid-item">
-      <p class="blog-text-short">De nieuwe rol van AI in de ICT</p>
-      <div class="readmore-container">
-        <a class="readmore" href="Blog posts/AI-ICT.html">Read more</a>
-      </div>
-    </div>
-  </div>
-
+  </main>
 </body>
 <footer>
   <!-- Aside menu -->

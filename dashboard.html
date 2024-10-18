@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <main>
+  <header>
     <!-- De Navigation bar -->
     <nav>
       <div class="nav-content">
@@ -22,11 +22,15 @@
           <li><a class="navigation-links" href="blog.html"><strong>Blog</strong></a></li>
           <li><a class="navigation-links" href="faq.html"><strong>FAQ</strong></a></li>
         </ul>
+        <!-- HZ Logo met link naar de HZ-website -->
         <div class="hzlogo">
           <a class="hzlogo" href="https://hz.nl/" target="_blank"><img src="Fotos en pdf/hz-logo.png" alt="hz-logo"></a>
         </div>
       </div>
     </nav>
+  </header>
+  <!-- Main page content -->
+  <main>
     <h1>Dashboard</h1>
     <!-- Html table dat alle vakken en examens bevat van het eerste jaar -->
     <table class="schema">
@@ -136,7 +140,7 @@
     </div>
   </main>
 </body>
-<!-- Kleur INDEX -->
+<!-- Kleur INDEX table -->
 <div class="color-container">
   <ul>
     <li><span class="color-box" style="background-color: yellow;"></span> In Progressie</li>
@@ -165,6 +169,9 @@
 </footer>
 
 <script>
+  /**
+* Functie om de ingevoerde inputs locaal op te slaan
+ */
   function saveInputs() {
     const inputs = document.querySelectorAll('input[type="text"]');
     inputs.forEach(input => {
@@ -172,6 +179,9 @@
     });
   }
 
+  /**
+   * Functie om de locaal ingevoerde inputs te laden
+    */
   function loadInputs() {
     const inputs = document.querySelectorAll('input[type="text"]');
     inputs.forEach(input => {
@@ -199,24 +209,29 @@
       }
     });
 
-    const totalElement = document.getElementById('total');
-    totalElement.textContent = `${total} EC`;
+    // Het berekende totaal aantal studiepunten wordt weergegeven onder in de tabel
+    const totalText = document.getElementById('total');
+    totalText.textContent = `${total} EC`;
 
+    // De progressbar neemt het percentage behaalde studiepunten en maakt dit de width van de bar.
     const progressBar = document.getElementById('progressBar');
     const percentage = (total / 60) * 100;
     progressBar.style.width = `${percentage}%`;
+    // Korte versie van een if-statement (Conditional (Ternary) Operator)
     progressBar.style.backgroundColor = total >= 45 ? 'green' : 'red';
     progressText.textContent = `${total} / 60 EC`;
   }
 
+  // De functies calculateTotal en saveInputs worden geactiveerd als de gebruiker iets input.
   document.querySelectorAll('input[type="text"]').forEach(input => {
-    input.addEventListener('input', () => {
+    input.addEventListener('input', function() {
       calculateTotal();
       saveInputs();
     });
   });
 
-  // Load saved input values and calculate total on page load
+  // Hier wordt het totaal van de inputs berekent en geladen.
+  // Zo zie je gelijk het totaal na het laden van de pagina
   loadInputs();
   calculateTotal();
 </script>
