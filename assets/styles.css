@@ -45,6 +45,12 @@
       padding: 10px;
       text-align: center;
       border: 3px solid #333;}
+
+    .banen {
+      text-align: center;
+        list-style-position: inside;
+        font-size: 20px;
+        margin: 10px auto auto auto;}
                                                                            /* Einde letters stylign */
 
                                                                 /* Basis styling */
